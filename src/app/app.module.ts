@@ -9,6 +9,7 @@ import { routes } from './app.routes';
 import { HomepageComponent } from './home/homepage/homepage.component';
 import { CheckboxModule } from 'primeng/checkbox';
 import { LoginpageComponent } from './home/loginpage/loginpage.component';
+import { PasswordModule } from "primeng/password";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LoginpageComponent } from './home/loginpage/loginpage.component';
     ReactiveFormsModule ,
     HttpClientModule,
     RouterModule.forRoot(routes),
-    CheckboxModule
+    CheckboxModule,
+    PasswordModule
   ],
   providers: [],
   bootstrap: [AppComponent]

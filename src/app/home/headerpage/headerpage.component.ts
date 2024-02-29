@@ -29,6 +29,11 @@ export class HeaderpageComponent implements OnInit {
         icon: 'pi pi-fw pi-sign-in',
         routerLink: '/login',
       },
+      {
+        label: 'Sign Up',
+        icon: 'pi pi-fw pi-sign-in',
+        routerLink: '/signup',
+      },
     ];
   }
 }
