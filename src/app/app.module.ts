@@ -3,13 +3,14 @@ import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
 import { HomepageComponent } from './home/homepage/homepage.component';
 import { CheckboxModule } from 'primeng/checkbox';
 import { LoginpageComponent } from './home/loginpage/loginpage.component';
 import { PasswordModule } from "primeng/password";
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [

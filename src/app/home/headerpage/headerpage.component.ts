@@ -20,6 +20,11 @@ export class HeaderpageComponent implements OnInit {
         routerLink: '/',
       },
       {
+        label: 'Users',
+        icon: 'pi pi-fw pi-users',
+        routerLink: '/users',
+      },
+      {
         label: 'Contact',
         icon: 'pi pi-fw pi-phone',
         routerLink: '/contact',

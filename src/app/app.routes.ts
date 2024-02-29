@@ -4,6 +4,7 @@ import { ContactpageComponent } from './home/contactpage/contactpage.component';
 import { LoginpageComponent } from './home/loginpage/loginpage.component';
 import { SignuppageComponent } from './home/signuppage/signuppage.component';
 import { ForgotpageComponent } from './home/forgotpage/forgotpage.component';
+import { UsersComponent } from './admin/users/users.component';
 
 export const routes: Routes = [
   {
@@ -26,4 +27,8 @@ export const routes: Routes = [
     path: "forgot",
     component: ForgotpageComponent,
   },
+  {
+    path: "users",
+    component: UsersComponent,
+  }
 ];

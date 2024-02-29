@@ -1,0 +1,23 @@
+<app-headerpage></app-headerpage>
+<div class="card">
+    <p-table [value]="users" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>createdAt</th>
+                <th>updatedAt</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-user>
+            <tr>
+                <td>{{ user.memberID }}</td>
+                <td>{{ user.name }}</td>
+                <td>{{ user.emailId }}</td>
+                <td>{{ user.createdAt }}</td>
+                <td>{{ user.updatedAt }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
